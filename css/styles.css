@@ -1,0 +1,102 @@
+.header-container {
+    height: 300px;
+    border: 10px solid black;
+}
+
+.main-container {
+    height: 800px;
+    border: 10px solid black;
+}
+
+.footer-container {
+    height: 100px;
+    border: 10px solid black;
+}
+
+.socialMedia-container {
+    width: 100%;
+    height: 100px;
+    background-color: lemonchiffon;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.aboutPage-container {
+    height: 200px;
+    background-color: #e2e66c;
+}
+
+.productDescription-container {
+    height: 200px;
+    background-color: #67cdba;
+}
+
+.featuresList-container {
+    height: 200px;
+    background-color: #61faff;
+    display: inline-flex;
+    justify-content: space-between;
+    padding: 20px 100px 0 100px;
+    text-align: center;
+}
+
+.ourTeam-container {
+    height: auto;
+    background-color: deepskyblue;
+}
+
+.personsList {
+    display: inline-flex;
+    justify-content: space-between;
+    padding: 20px 100px 0 100px;
+    text-align: center;
+}
+
+.contactForm-container {
+    height: 200px;
+    background-color: powderblue;
+}
+
+.navigationBar-container {
+    height: 100px;
+    background-color: #fdbdff;
+}
+
+.aboutPage {
+    width: 50%;
+    height: 150px;
+    background-color: lightpink;
+    margin-left: 50px;
+}
+
+h1 {
+    margin-top: 0;
+    text-align: center;
+}
+
+.creativeTeam {
+    margin-left: 50px;
+}
+
+.socialMedia {
+    margin-right: 50px;
+}
+
+ul li {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.productDescription-container h1 {
+    text-align: center;
+    padding: 20px 330px 0 330px;
+}
+
+.productDescription-container p {
+    text-align: center;
+    padding: 20px 330px 0 330px;
+}
+
+.featuresList-container div {
+    padding: 20px;
+}
