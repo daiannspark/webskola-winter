@@ -4,7 +4,7 @@
 }
 
 .main-container {
-    height: 800px;
+    height: auto;
     border: 10px solid black;
 }
 
@@ -53,7 +53,7 @@
 }
 
 .contactForm-container {
-    height: 200px;
+    height: auto;
     background-color: powderblue;
 }
 
@@ -92,11 +92,75 @@ ul li {
     padding: 20px 330px 0 330px;
 }
 
+.ourTeam-container h1 {
+    text-align: center;
+    padding: 20px 330px 0 330px;
+}
+
+.contactForm-container h1 {
+    text-align: center;
+    padding: 20px 330px 0 330px;
+}
+
 .productDescription-container p {
+    text-align: center;
+    padding: 20px 330px 0 330px;
+}
+
+.contactForm-container p {
     text-align: center;
     padding: 20px 330px 0 330px;
 }
 
 .featuresList-container div {
     padding: 20px;
+}
+
+.contactForm {
+    display: block;
+    text-align: center;
+    width: 753px;
+    height: auto;
+    margin: 0 auto;
+}
+
+
+.yourName {
+    width: 361px;
+    height: 38px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid grey;
+}
+
+.yourEmail {
+    width: 361px;
+    height: 38px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid grey;
+}
+
+.yourMessage {
+    width: 751px;
+    height: 92px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid grey;
+    margin-top:10px;
+}
+
+.registerBtn {
+    background-color: #aa1caf;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 148px;
+    height: 41px;
+    opacity: 0.9;
 }
