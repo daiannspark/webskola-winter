@@ -1,77 +1,23 @@
+h1 {
+    margin-top: 0;
+    text-align: center;
+}
+
+ul li {
+    display: inline-block;
+    text-decoration: none;
+}
+
 .header-container {
     height: 300px;
-    border: 10px solid black;
-}
-
-.main-container {
-    height: auto;
-    border: 10px solid black;
-}
-
-.footer-container {
-    height: 100px;
     border: 10px solid black;
 }
 
 .socialMedia-container {
     width: 100%;
     height: 100px;
-    background-color: lemonchiffon;
     display: inline-flex;
     justify-content: space-between;
-}
-
-.aboutPage-container {
-    height: 200px;
-    background-color: #e2e66c;
-}
-
-.productDescription-container {
-    height: 200px;
-    background-color: #67cdba;
-}
-
-.featuresList-container {
-    height: 200px;
-    background-color: #61faff;
-    display: inline-flex;
-    justify-content: space-between;
-    padding: 20px 100px 0 100px;
-    text-align: center;
-}
-
-.ourTeam-container {
-    height: auto;
-    background-color: deepskyblue;
-}
-
-.personsList {
-    display: inline-flex;
-    justify-content: space-between;
-    padding: 20px 100px 0 100px;
-    text-align: center;
-}
-
-.contactForm-container {
-    height: auto;
-    background-color: powderblue;
-}
-
-.navigationBar-container {
-    height: 100px;
-    background-color: #fdbdff;
-}
-
-.aboutPage {
-    width: 50%;
-    height: 150px;
-    background-color: lightpink;
-    margin-left: 50px;
-}
-
-h1 {
-    margin-top: 0;
-    text-align: center;
 }
 
 .creativeTeam {
@@ -82,14 +28,42 @@ h1 {
     margin-right: 50px;
 }
 
-ul li {
-    display: inline-block;
-    text-decoration: none;
+.aboutPage-container {
+    height: 200px;
 }
 
+.aboutPage {
+    width: 50%;
+    height: 150px;
+    margin-left: 50px;
+}
+
+.main-container {
+    height: auto;
+    background-color: #FFFFFF;
+    border: 10px solid black;
+}
+
+.productDescription-container {
+    height: 200px;
+}
+
+.productDescription-container p,
 .productDescription-container h1 {
     text-align: center;
     padding: 20px 330px 0 330px;
+}
+
+.featuresList-container {
+    height: 200px;
+    display: inline-flex;
+    justify-content: space-between;
+    padding: 20px 100px 0 100px;
+    text-align: center;
+}
+
+.ourTeam-container {
+    height: auto;
 }
 
 .ourTeam-container h1 {
@@ -97,12 +71,22 @@ ul li {
     padding: 20px 330px 0 330px;
 }
 
-.contactForm-container h1 {
+.personsList {
+    display: inline-flex;
+    justify-content: space-between;
+    padding: 20px 100px 0 100px;
     text-align: center;
-    padding: 20px 330px 0 330px;
 }
 
-.productDescription-container p {
+.featuresList-container div {
+    padding: 20px;
+}
+
+.contactForm-container {
+    height: auto;
+}
+
+.contactForm-container h1 {
     text-align: center;
     padding: 20px 330px 0 330px;
 }
@@ -110,10 +94,6 @@ ul li {
 .contactForm-container p {
     text-align: center;
     padding: 20px 330px 0 330px;
-}
-
-.featuresList-container div {
-    padding: 20px;
 }
 
 .contactForm {
@@ -124,16 +104,12 @@ ul li {
     margin: 0 auto;
 }
 
-
-.yourName {
-    width: 361px;
-    height: 38px;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    border-bottom: 2px solid grey;
+.nameEmail-container {
+    display: flex;
+    justify-content: space-between;
 }
 
+.yourName,
 .yourEmail {
     width: 361px;
     height: 38px;
@@ -150,17 +126,46 @@ ul li {
     border-left: none;
     border-right: none;
     border-bottom: 2px solid grey;
-    margin-top:10px;
+    margin-top: 38px;
+    padding-top: 12px;
+    resize: none;
+}
+
+input,
+textarea {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
 }
 
 .registerBtn {
     background-color: #aa1caf;
     color: white;
     padding: 16px 20px;
-    margin: 8px 0;
+    margin: 25px 0;
     border: none;
     cursor: pointer;
     width: 148px;
     height: 41px;
     opacity: 0.9;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.footer-container {
+    height: 100px;
+    border: 10px solid black;
+}
+
+.navigationBar-container {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    height: 100px;
+    background-color: #fdbdff;
 }
