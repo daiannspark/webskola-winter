@@ -4,13 +4,6 @@
     <list default="true" id="38a044d3-8ef3-4521-82d3-eb0122fc2351" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/ICON FACEBOOK.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/ICON GOOGLE+.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/ICON INSTAGRAM.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/ICON LINKEDIN.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/ICON TWITTER.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/ICON YOUTUBE.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/clolud icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/cloud.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +48,7 @@
       <option name="presentableId" value="Default" />
       <updated>1581250420854</updated>
       <workItem from="1581250422285" duration="45000" />
-      <workItem from="1581250477364" duration="2037000" />
+      <workItem from="1581250477364" duration="7667000" />
     </task>
     <servers />
   </component>
