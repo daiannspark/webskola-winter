@@ -4,10 +4,11 @@
     <title>webskola</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
 
-<div class="header-container">
+<div class="flex-container header-container">
     <div class="flex-container socialMedia-container">
         <div class="flex-container creativeTeam ">
             <p>Creative Tim</p>
@@ -15,12 +16,19 @@
 
         <div class="flex-container socialMedia">
             <ul class="socialList">
-                <li>COMPONENTS</li>
-                <li><img src="images/ICON.png" alt="">DOWNLOAD</li>
+                <li id="comps">COMPONENTS</li>
+                <li><a href=""> <img src="images/ICON.png" alt="">&nbsp;DOWNLOAD</a></li>
                 <li><img src="images/twitter-up.png" alt=""></li>
                 <li><img src="images/fb-up.png" alt=""></li>
                 <li><img src="images/instagram-up.png" alt=""></li>
             </ul>
+            <!--            <div class="socialList">-->
+            <!--                <a href="">COMPONENTS</a>-->
+            <!--                <a href=""><img src="images/ICON.png" alt="">&nbsp;DOWNLOAD</a>-->
+            <!--                <a href=""><img src="images/twitter-up.png" alt=""></a>-->
+            <!--                <a href=""><img src="images/fb-up.png" alt=""></a>-->
+            <!--                <a href=""><img src="images/instagram-up.png" alt=""></a>-->
+            <!--            </div>-->
         </div>
     </div>
 
@@ -38,7 +46,8 @@
             </div>
 
             <div class="buttonAbout">
-                <input type="button" value="Click me">
+<!--                <input type="button" value="Click me">-->
+                <button type="button"><img src="images/PLAY.png" alt="">&nbsp;WATCH VIDEO</button>
             </div>
         </div>
     </div>
@@ -47,7 +56,7 @@
 
 
 
-<div class="main-container">
+<div class="flex-container main-container">
     <div class="flex-container productDescription-container">
         <h1>Let’s talk product</h1>
         <p>This is the paragraph where you can write more details about your product. Keep you user
@@ -55,7 +64,7 @@
             otherwise he wouldn't scroll to get here. Add a button if you want the user to see more.</p>
     </div>
 
-    <div class="flex-container  featuresList-container">
+    <div class="flex-container featuresList-container">
         <div class="flex-container firstFeature ">
             <span><img src="images/message.png" alt=""></span>
             <h5>First Feature</h5>
@@ -81,7 +90,7 @@
         </div>
     </div>
 
-    <div class="ourTeam-container">
+    <div class="flex-container ourTeam-container">
         <h1>Here is our team</h1>
         <div class="flex-container personsList">
             <div class="flex-container firstPerson">
@@ -134,7 +143,7 @@
 
     </div>
 
-    <div class="contactForm-container">
+    <div class="flex-container contactForm-container">
         <h1>Work with us</h1>
         <p>Divide details about your product or agency work into parts. Write a few lines about each one
             and contact us about any further collaboration. We will responde get back to you in a couple of
@@ -152,7 +161,7 @@
     </div>
 </div>
 
-<div class="footer-container">
+<div class="flex-container footer-container">
     <div class="flex-container navigationBar-container">
         <div class="footerNavBar">
             <ul>
