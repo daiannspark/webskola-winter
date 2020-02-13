@@ -9,13 +9,12 @@ li img {
 
 body {
     margin: 0;
-    background-color: darkgrey;
+    background-color: #E5E5E5;
 }
 
 a {
     text-decoration: none;
     color: #FFFFFF;
-    height: 25px;
 }
 
 .header-container {
@@ -37,7 +36,7 @@ a {
 }
 
 .socialList li {
-    height: 28px;
+    height: 20px;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -139,15 +138,21 @@ button {
 }
 
 .productDescription-container {
-    height: 407px;
+    height: auto;
 }
 
 .productDescription-container h1 {
     width: 277px;
-    height: 43px;
+    height: auto;
     margin: 0 auto;
     text-align: center;
     padding-top: 95px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 43px;
+    color: #3C4858;
 }
 
 .productDescription-container p {
@@ -159,18 +164,42 @@ button {
     font-family: Roboto;
     font-style: normal;
     font-weight: 300;
-    font-size: 17.5px;
+    font-size: 17px;
     line-height: 21px;
     color: #999999;
 
 }
 
 .featuresList-container {
-    height: 200px;
+    height: auto;
     display: inline-flex;
     justify-content: space-between;
-    padding: 20px 100px 0 100px;
+    padding: 161px 123px 0 123px;
     text-align: center;
+}
+
+.featuresList-container h5 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #3C4858;
+}
+
+.featuresList-container div {
+    margin: 0 31px 0 31px;
+}
+
+.featuresList-container p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    color: #999999;
 }
 
 .ourTeam-container {
@@ -179,18 +208,74 @@ button {
 
 .ourTeam-container h1 {
     text-align: center;
-    padding: 20px 330px 0 330px;
+    padding: 0 330px 0 330px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 43px;
+    color: #3C4858;
+    margin: 208px 0 86px 0;
+}
+
+.ourTeam-container h2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 18px;
+    line-height: 21px;
+    color: #3C4858;
+    margin: 0;
+}
+
+.ourTeam-container h6 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    color: #777777;
+    margin: 7px 0 0 0;
+}
+
+.ourTeam-container p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    color: #999999;
+}
+
+.ourTeam-container div {
+    margin: 0 20px 0 20px;
+}
+
+.links {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    color: #9C27B0;
 }
 
 .personsList {
     display: inline-flex;
     justify-content: space-between;
-    padding: 20px 100px 0 100px;
+    padding: 0 110px 0 110px;
     text-align: center;
 }
 
-.featuresList-container div {
-    padding: 20px;
+.personsIcons {
+    margin: 27px 0 0 0;
+    padding: 0;
+}
+
+.personsIcons a {
+    margin: 0 14.5px 0 14.5px;
 }
 
 .contactForm-container {
@@ -199,12 +284,24 @@ button {
 
 .contactForm-container h1 {
     text-align: center;
-    padding: 20px 330px 0 330px;
+    padding: 182px 550px 0 550px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 43px;
+    color: #3C4858;
 }
 
 .contactForm-container p {
     text-align: center;
-    padding: 20px 330px 0 330px;
+    margin: 38px 360px 0 360px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #999999;
 }
 
 .contactForm {
@@ -212,7 +309,7 @@ button {
     text-align: center;
     width: 753px;
     height: auto;
-    margin: 0 auto;
+    margin: 38px auto;
 }
 
 .nameEmail-container {
@@ -227,7 +324,7 @@ button {
     border-top: none;
     border-left: none;
     border-right: none;
-    border-bottom: 2px solid grey;
+    border-bottom: 1px solid #999999;
 }
 
 .yourMessage {
@@ -236,7 +333,7 @@ button {
     border-top: none;
     border-left: none;
     border-right: none;
-    border-bottom: 2px solid grey;
+    border-bottom: 1px solid #999999;
     margin-top: 38px;
     padding-top: 12px;
     resize: none;
@@ -249,6 +346,10 @@ textarea {
     font-weight: normal;
     font-size: 14px;
     line-height: 16px;
+}
+
+.contactForm button {
+    margin: 25px 0 112px 0;
 }
 
 .registerBtn {
@@ -269,7 +370,21 @@ textarea {
 }
 
 .footer-container {
-    height: 50px;
+    margin-left: 149.5px;
+}
+
+.footerNavBar li {
+    margin: 0 16.5px;
+}
+
+.footerNavBar a{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #333333;
 }
 
 .navigationBar-container {
