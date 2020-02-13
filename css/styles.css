@@ -3,13 +3,24 @@ ul li {
     text-decoration: none;
 }
 
+li img {
+    vertical-align: middle;
+}
+
 body {
     margin: 0;
+    background-color: darkgrey;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+    height: 25px;
 }
 
 .header-container {
     width: 100%;
-    height: 700px;
+    height: 726px;
     background-image: url("../images/cityView.png");
     background-size: cover;
 }
@@ -22,10 +33,11 @@ body {
 }
 
 .socialList {
-
+    margin: 0;
 }
 
 .socialList li {
+    height: 28px;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -33,10 +45,6 @@ body {
     line-height: 14px;
     text-align: center;
     color: #FFFFFF;
-}
-
-#comps {
-    height: 20px;
 }
 
 .creativeTeam {
@@ -50,24 +58,27 @@ body {
     margin-left: 150px;
 }
 
+.creativeTeam p {
+    margin: 0;
+}
+
 .socialMedia {
     margin-right: 162px;
 }
 
 .socialList li {
     margin-left: 25px;
-    /*height: 20px;*/
+    /*height: 25px;*/
 }
 
 .socialList img {
-    width: 20px;
     height: 20px;
 }
 
 .aboutPage-container {
     width: 549px;
     height: 304px;
-    margin: 207px 0 0 149px;
+    margin: 146px 0 215px 134px;
 }
 
 .titleAbout {
@@ -87,15 +98,20 @@ body {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 18.2px;
-    line-height: 21px;
+    font-size: 18px;
+    line-height: 25px;
     color: #FFFFFF;
+    margin-top: 11px;
+}
+
+.textAbout p {
+    margin: 0;
 }
 
 button {
     width: 179px;
     height: 54px;
-    margin-top: 49px;
+    margin-top: 42px;
     background: #F44336;
     box-shadow: 0px 2px 2px rgba(244, 67, 54, 0.14);
     border-radius: 3px;
@@ -109,12 +125,17 @@ button {
 }
 
 .buttonAbout img {
-vertical-align: middle;
+    vertical-align: middle;
 }
 
 .main-container {
+    width: 98%;
     height: auto;
+    margin: 0 auto;
     background-color: #FFFFFF;
+    border-radius: 6px;
+    position: relative;
+    bottom: 60px;
 }
 
 .productDescription-container {
@@ -248,13 +269,12 @@ textarea {
 }
 
 .footer-container {
-    height: 100px;
+    height: 50px;
 }
 
 .navigationBar-container {
     width: 100%;
     display: inline-flex;
     justify-content: space-between;
-    height: 100px;
-    background-color: #fdbdff;
+    height: 50px;
 }
