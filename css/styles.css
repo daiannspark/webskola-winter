@@ -211,10 +211,6 @@ button {
     height: auto;
 }
 
-/*.ourTeam-container div {*/
-/*    margin: 0 20px 0 20px;*/
-/*}*/
-
 .ourTeam-container h1 {
     text-align: center;
     padding: 0 330px 0 330px;
@@ -227,7 +223,15 @@ button {
     margin: 208px 0 86px 0;
 }
 
-.ourTeam-container h2 {
+.personsList {
+    width: auto;
+    display: inline-flex;
+    justify-content: space-between;
+    padding: 0 110px 0 110px;
+    text-align: center;
+}
+
+.personsList h2 {
     font-family: Roboto;
     font-style: normal;
     font-weight: bolder;
@@ -237,7 +241,7 @@ button {
     margin: 0;
 }
 
-.ourTeam-container h6 {
+.personsList h6 {
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -247,7 +251,7 @@ button {
     margin: 7px 0 0 0;
 }
 
-.ourTeam-container p {
+.personsList p {
     font-family: Roboto;
     font-style: normal;
     font-weight: 300;
@@ -266,14 +270,6 @@ button {
     line-height: 22px;
     text-align: center;
     color: #9C27B0;
-}
-
-.personsList {
-    width: auto;
-    display: inline-flex;
-    justify-content: space-between;
-    padding: 0 110px 0 110px;
-    text-align: center;
 }
 
 .personsIcons {
@@ -301,7 +297,6 @@ button {
 }
 
 .contactForm-container p {
-
     text-align: center;
     margin: 38px 360px 0 360px;
     font-family: Roboto;

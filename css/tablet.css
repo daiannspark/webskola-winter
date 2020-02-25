@@ -1,12 +1,140 @@
     @media only screen and (min-width: 768px) and (max-width: 1024px) {
 
+        .header-container {
+            width: 100%;
+            height: 597px;
+            background-image: url("../images/cityView.png");
+            background-size: cover;
+            background-position: 50% 50%;
+
+        }
         .socialMedia-container {
+            height: 67px;
             background: rgba(0, 0, 0, 0.4);
+            padding-top: 22px;
         }
 
+        .creativeTeam {
+            margin-left: 24px;
+        }
 
+        .socialMedia {
+            margin-right: 38px;
+        }
 
+        .socialList li {
+            margin-left: 25px;
+        }
 
+        .aboutPage-container {
+            width: 716px;
+            height: auto;
+            margin: 107px 0 121px 24px;
+        }
+
+        .titleAbout {
+            width: 648px;
+            height: 125px;
+        }
+
+        .textAbout {
+            width: 716px;
+            height: 72px;
+            margin-top: 8px;
+        }
+
+        button {
+            width: 179px;
+            height: 54px;
+            margin-top: 43px;
+        }
+
+        .main-container {
+            transform: translateY(-62px);
+        }
+
+        .productDescription-container h1 {
+            padding-top: 94px;
+        }
+
+        .featuresList-container {
+            height: auto;
+            display: block;
+            text-align: center;
+            margin-top: 162px;
+            padding: 0;
+        }
+
+        .featuresList-container div {
+            width: 328px;
+            height: auto;
+            margin: 0 auto;
+        }
+
+        .featuresList-container div:nth-child(1),
+        .featuresList-container div:nth-child(2) {
+            margin-bottom: 110px;
+        }
+
+        .ourTeam-container {
+            height: auto;
+        }
+
+        .ourTeam-container h1 {
+            width: 268px;
+            text-align: center;
+            padding: 208px 0 86px 0;
+            margin: 0 auto;
+        }
+
+        .personsList {
+            width: auto;
+            display: block;
+            padding: 0;
+            text-align: center;
+            margin: 0 auto;
+        }
+
+        .personsList div {
+            width: 713px;
+            margin: 0 auto;
+        }
+
+        .personsList div:nth-child(1),
+        .personsList div:nth-child(2) {
+            margin-bottom: 20px;
+        }
+
+        .personsList p {
+            margin: 35px 0 0 0;
+        }
+
+        .contactForm-container {
+            width: 716px;
+            margin: 0 auto;
+        }
+
+        .contactForm-container h1 {
+            margin-bottom: 38px;
+        }
+
+        .contactForm-container p {
+            width: 709px;
+            margin: 0 auto;
+        }
+
+        .yourName,
+        .yourEmail {
+            width: 716px;
+        }
+
+        .yourName {
+            float: right;
+        }
+
+        .yourMessage {
+            width: 716px;
+        }
 
 
 
