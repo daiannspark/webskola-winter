@@ -1,0 +1,178 @@
+@media only screen and (max-width: 768px) {
+
+    .header-container {
+        height: 664px;
+        background-position: 50% 50%;
+    }
+
+    .socialMedia-container {
+        height: 62px;
+        background: rgba(0, 0, 0, 0.4);
+        padding-top: 15px;
+    }
+
+    .creativeTeam {
+        margin-left: 15px;
+    }
+
+    .socialMedia {
+        margin-right: 25px;
+    }
+
+    .menuDrop {
+        display: flex;
+    }
+
+    .navMenuLinks {
+        display: none;
+    }
+
+    .aboutPage-container {
+        width: 383px;
+        height: auto;
+        margin: 112px 27px 74px 15px;
+    }
+
+    .titleAbout {
+        width: 345px;
+        height: 188px;
+    }
+
+    .textAbout {
+        width: 383px;
+        height: 123px;
+        margin-top: 9px;
+    }
+
+    button {
+        width: 179px;
+        height: 54px;
+        margin-top: 42px;
+    }
+
+    .main-container {
+        margin: -54px auto;
+    }
+
+    .productDescription-container h1 {
+        padding-top: 94px;
+    }
+
+    .productDescription-container p {
+        width: 368px;
+        margin: 0 auto;
+    }
+
+    .featuresList-container {
+        height: auto;
+        display: block;
+        text-align: center;
+        margin-top: 162px;
+        padding: 0;
+    }
+
+    .featuresList-container div {
+        width: 328px;
+        height: auto;
+        margin: auto;
+        text-align: center;
+    }
+
+    .featuresList-container div:nth-child(1),
+    .featuresList-container div:nth-child(2) {
+        margin-bottom: 108px;
+    }
+
+    .featuresList-container p {
+        width: 328px;
+    }
+
+    .ourTeam-container h1 {
+        width: 268px;
+        padding: 207px 0 86px 0;
+        margin: 0 auto;
+    }
+
+    .personsList {
+        width: auto;
+        display: block;
+        padding: 0;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .personsList div {
+        width: 372px;
+        margin: 0 auto;
+    }
+
+    .personsList div:nth-child(1),
+    .personsList div:nth-child(2) {
+        margin-bottom: 20px;
+    }
+
+    .personsList p {
+        margin: 35px 0 0 0;
+    }
+
+    .contactForm-container h1 {
+        margin-bottom: 37px;
+    }
+
+    .contactForm-container p {
+        width: 378px;
+        margin: 0 auto;
+    }
+
+    .nameEmail-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .contactForm {
+        width: 378px;
+    }
+
+    .yourName,
+    .yourEmail {
+        width: 378px;
+    }
+
+    .yourEmail {
+        margin-top: 40px;
+    }
+
+    .yourMessage {
+        display: flex;
+        width: 378px;
+    }
+
+    .footer-container {
+        margin: 100px 30px 0 30px;
+    }
+
+    .navigationBar-container {
+        width: 100%;
+        display: block;
+    }
+
+    .footerNavBar {
+        margin-right: 0;
+    }
+
+    .footerNavBar ul {
+        padding: 0;
+    }
+
+    .footerNavBar li {
+        margin: 0;
+        padding-right: 15px;
+    }
+
+    .copyright {
+        margin: 30px auto;
+    }
+
+
+
+}

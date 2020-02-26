@@ -1,10 +1,7 @@
     @media only screen and (min-width: 768px) and (max-width: 1024px) {
 
         .header-container {
-            width: 100%;
             height: 597px;
-            background-image: url("../images/cityView.png");
-            background-size: cover;
             background-position: 50% 50%;
 
         }
@@ -20,10 +17,6 @@
 
         .socialMedia {
             margin-right: 38px;
-        }
-
-        .socialList li {
-            margin-left: 25px;
         }
 
         .aboutPage-container {
