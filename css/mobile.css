@@ -19,13 +19,39 @@
         margin-right: 25px;
     }
 
-    .menuDrop {
-        display: flex;
+    /*.menuDrop {*/
+    /*    display: flex;*/
+    /*}*/
+
+    #page-nav label {
+        display: inline-block;
+        color: #fff;
+        background: rgba(0, 0, 0, 0);
+        font-style: normal;
+        font-size: 25px;
+        position: fixed;
     }
 
     .navMenuLinks {
+        margin: 10px;
+        padding: 5px;
+    }
+
+    #page-nav ul li {
+        display: block;
+        border-top: 1px solid #333;
+    }
+
+    #page-nav ul {
         display: none;
     }
+    #page-nav input:checked ~ ul {
+        display: block;
+    }
+
+    /*.navMenuLinks {*/
+    /*    display: none;*/
+    /*}*/
 
     .aboutPage-container {
         width: 383px;

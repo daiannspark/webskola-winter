@@ -36,9 +36,13 @@ a {
     justify-content: space-between;
 }
 
-.menuDrop {
+#page-nav label, #hamburger {
     display: none;
 }
+
+/*.menuDrop {*/
+/*    display: none;*/
+/*}*/
 
 .socialList {
     margin: 0;
